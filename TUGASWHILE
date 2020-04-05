@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+// tugas praktikum bahasa pemogram lilis muliani
+int main (){
+	int z = 100;
+		//menampilkan angka bilangan ganjil dan genap menggunakan while 100-1000
+		cout << " masukkan angka dari 100-1000 : " << endl;
+		cin >> z ;
+	while ( z <= 1000 ){
+		if ( z % 2 == 1 ){
+			cout << z << " : adalah bilangan ganjil " << endl ; z++;
+		} else{
+			cout << z << " : adalah bilangan genap " << endl ; z++;
+		}
+	}
+}
