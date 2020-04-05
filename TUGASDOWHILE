@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+using namespace std;
+// tugas praktikum bahasa pemograman lilis muliani
+int main (){
+	char huruf = 'Y' ;
+	/* JIKA DIMASUKKAN N MAKA AKAN MELAKUKAN PERULANGAN
+	TETAPI KETIKA DIMASUKKAN Y MAKA AKAN MENJALANKAN PROGRAM 
+	*/
+	do {
+		cout << " masukkan 'N' untuk menghentikan perulangan " << endl;
+		cout << " masukkan huruf 'Y' : ";
+		cin >> huruf;
+		
+	} while ( huruf == 'Y' );
+	return 0;
+
+}
